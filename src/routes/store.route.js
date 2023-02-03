@@ -8,7 +8,7 @@ router
   .get(storeController.getStores);
 
 router
-  .route('/:storeId')
+  .route('/:storeId/products')
   .get(storeController.getStoreProducts);
 
 module.exports = router;
